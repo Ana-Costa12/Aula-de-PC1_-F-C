@@ -18,7 +18,7 @@ namespace Aula_de_PC1__F_C
             Fahrenheit = double.Parse(Console.ReadLine());
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Clear();
-            Console.WriteLine($"{Fahrenheit}°F equivale á exatamente: {Fahrenheit - Celsius / 1.8 }°C");
+            Console.WriteLine($"{Fahrenheit}°F equivale á exatamente: {(Fahrenheit - Celsius) / 1.8 }°C");
             Console.ResetColor();
             Console.WriteLine("Aperte qualquer botão para sair...");
             Console.ReadKey();
